@@ -12,7 +12,6 @@ class HomePageViewController: UIViewController {
     @IBOutlet weak var contentTableView: UITableView!
     
     var contentProduct = [DataProduct]()
-    var viewModel = ProductsViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()

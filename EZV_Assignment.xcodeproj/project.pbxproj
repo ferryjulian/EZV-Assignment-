@@ -22,6 +22,8 @@
 		981AEE2229C322AA00F5B80D /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981AEE2129C322AA00F5B80D /* CoreDataHelper.swift */; };
 		981AEE2529C323A500F5B80D /* ProductAppModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 981AEE2329C323A500F5B80D /* ProductAppModel.xcdatamodeld */; };
 		9896C71829C3931D008772B1 /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896C71729C3931D008772B1 /* UIImageExtension.swift */; };
+		9896C71D29C41AAA008772B1 /* FavoritePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896C71B29C41AAA008772B1 /* FavoritePageViewController.swift */; };
+		9896C71E29C41AAA008772B1 /* FavoritePageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9896C71C29C41AAA008772B1 /* FavoritePageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		981AEE2129C322AA00F5B80D /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
 		981AEE2429C323A500F5B80D /* ProductAppModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductAppModel.xcdatamodel; sourceTree = "<group>"; };
 		9896C71729C3931D008772B1 /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		9896C71B29C41AAA008772B1 /* FavoritePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePageViewController.swift; sourceTree = "<group>"; };
+		9896C71C29C41AAA008772B1 /* FavoritePageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritePageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,8 @@
 		981AEE0829C2F2D100F5B80D /* FavoritePage */ = {
 			isa = PBXGroup;
 			children = (
+				9896C71B29C41AAA008772B1 /* FavoritePageViewController.swift */,
+				9896C71C29C41AAA008772B1 /* FavoritePageViewController.xib */,
 			);
 			path = FavoritePage;
 			sourceTree = "<group>";
@@ -217,6 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				981AEE0D29C2F37900F5B80D /* HomePageViewController.xib in Resources */,
+				9896C71E29C41AAA008772B1 /* FavoritePageViewController.xib in Resources */,
 				981AEE1129C2F49800F5B80D /* HomeTableViewCell.xib in Resources */,
 				981AEDFE29C2E37900F5B80D /* LaunchScreen.storyboard in Resources */,
 				981AEDFB29C2E37900F5B80D /* Assets.xcassets in Resources */,
@@ -235,6 +242,7 @@
 				981AEE1C29C31DB400F5B80D /* DetailPageViewController.swift in Sources */,
 				981AEE1829C30D5F00F5B80D /* ProductsModel.swift in Sources */,
 				981AEE2529C323A500F5B80D /* ProductAppModel.xcdatamodeld in Sources */,
+				9896C71D29C41AAA008772B1 /* FavoritePageViewController.swift in Sources */,
 				981AEE2029C3213E00F5B80D /* NetworkingHelper.swift in Sources */,
 				981AEE1029C2F49800F5B80D /* HomeTableViewCell.swift in Sources */,
 				981AEE0C29C2F37900F5B80D /* HomePageViewController.swift in Sources */,
